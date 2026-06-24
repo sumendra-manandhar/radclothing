@@ -274,28 +274,28 @@ export default function Home() {
 const Sectiontestimonial = () => {
   const testimonials = [
     {
-      text: "PrebuiltUI allowed our team to move quickly and confidently - clean design, solid structure, and ready for production.",
+      text: "Rad Wear allowed our team to move quickly and confidently - clean design, solid structure, and ready for production.",
       name: "Cristofer Levin",
       role: "Frontend engineer",
       image:
         "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
     },
     {
-      text: "Using PrebuiltUI saved us time while keeping the design sharp and consistent. These components are built for real products.",
+      text: "Using Rad Wear saved us time while keeping the design sharp and consistent. These components are built for real products.",
       name: "Jason Kim",
       role: "Product designer",
       image:
         "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
     },
     {
-      text: "PrebuiltUI struck the perfect balance between speed and quality. Every components are well crafted and production-ready.",
+      text: "Rad Wear struck the perfect balance between speed and quality. Every components are well crafted and production-ready.",
       name: "Michael Chen",
       role: "Backend engineer",
       image:
         "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&auto=format&fit=crop&q=60",
     },
     {
-      text: "We shipped faster with PrebuiltUI, and the design quality never took a hit. The components feel reliable and polished.",
+      text: "We shipped faster with Rad Wear, and the design quality never took a hit. The components feel reliable and polished.",
       name: "Sofia Martinez",
       role: "UI/UX designer",
       image:
@@ -369,8 +369,8 @@ const Sectiontestimonial = () => {
                     ))}
                 </div>
                 <p className="text-sm/5.5 text-neutral-50">
-                  PrebuiltUI components helped us move faster without
-                  sacrificing design quality.
+                  Rad Wear components helped us move faster without sacrificing
+                  design quality.
                 </p>
               </div>
             </div>
@@ -576,7 +576,7 @@ const Footer = () => {
                 <ul className="space-y-3 text-sm text-neutral-800">
                   <li>
                     <a href="#" className="hover:text-neutral-700">
-                      PrebuiltUI
+                      Rad Wear
                     </a>
                   </li>
                   <li>
@@ -640,13 +640,13 @@ const Footer = () => {
           </div>
 
           <div className="max-w-7xl mx-auto mt-12 pt-4 border-t border-neutral-300 flex justify-between items-center">
-            <p className="text-neutral-600 text-sm">© 2025 PrebuiltUI Design</p>
+            <p className="text-neutral-600 text-sm">© 2025 Rad Wear Design</p>
             <p className="text-sm text-neutral-600">All right reserved.</p>
           </div>
           <div className="relative">
             <div className="absolute inset-x-0 bottom-0 mx-auto w-full max-w-3xl h-full max-h-64 bg-slate-100 rounded-full blur-[100px] pointer-events-none" />
             <h1 className=" text-center font-extrabold leading-[0.7] text-transparent text-[clamp(3rem,15vw,15rem)] [-webkit-text-stroke:1px_#D4D4D4] mt-6">
-              PrebuiltUI
+              Rad Wear
             </h1>
           </div>
         </footer>
