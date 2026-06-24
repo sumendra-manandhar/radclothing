@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next build",
-    "deploy": "gh-pages -d out"
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
