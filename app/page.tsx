@@ -4,6 +4,8 @@ import { PointerHighlight } from "@/components/ui/pointer-highlight";
 import Hero from "@/pages/hero";
 
 import Homepage from "@/pages/homepage";
+import MessageSection from "@/pages/messageSection";
+
 import Image from "next/image";
 import { useState } from "react";
 
@@ -262,6 +264,7 @@ export default function Home() {
       </section>
 
       <Sectiontestimonial />
+      <MessageSection />
 
       <FAQ />
       <Footer />
@@ -448,8 +451,8 @@ const Footer = () => {
                   <path
                     d="m8.349 4.55 7.098 3.884 7.098-3.885M8.35 27.83v-7.755l-7.1-3.886m28.394 0-7.099 3.885v7.754M1.676 8.658l13.771 7.546 13.77-7.546M15.448 31.25V16.189m14.197 5.976V10.212c0-.524-.147-1.039-.424-1.492a3.1 3.1 0 0 0-1.154-1.093L17.024 1.65a3.3 3.3 0 0 0-1.577-.4 3.3 3.3 0 0 0-1.577.4L2.828 7.627A3.07 3.07 0 0 0 1.674 8.72a2.87 2.87 0 0 0-.424 1.492v11.953c0 .524.147 1.04.424 1.493s.675.83 1.154 1.092l11.042 5.977c.48.262 1.023.4 1.577.4a3.3 3.3 0 0 0 1.577-.4l11.042-5.977c.48-.262.877-.639 1.154-1.092s.423-.969.424-1.493"
                     stroke="#262626"
-                    stroke-width="2.5"
-                    stroke-linecap="round"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                 </svg>

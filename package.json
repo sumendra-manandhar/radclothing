@@ -5,16 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "export": "next build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.6.1",
     "@tabler/icons-react": "^3.44.0",
     "@tailwindcss/cli": "^4.3.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "gsap": "^3.15.0",
     "lucide-react": "^1.21.0",
     "motion": "^12.40.0",
     "next": "16.2.9",
@@ -34,6 +36,7 @@
     "autoprefixer": "^10.5.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.15",
     "tailwindcss": "^4.3.1",
     "typescript": "^5"
